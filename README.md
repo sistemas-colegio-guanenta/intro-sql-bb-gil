@@ -54,3 +54,7 @@
 `SELECT nombre_articulo FROM Articulo WHERE precio_articulo BETWEEN 5000 AND 40000;`
 
 ![Consulta 6](img/consulta_6.png  "Consulta 6")
+
+7. Obtener el nombre y precio de los articulos con dolares.
+`SELECT nombre_anticulo AS articulo, precio_articulo / 4300 AS precio_USD FROM articulo;`
+![Consulta 7](img/consulta_7.png  "Consulta 7")
